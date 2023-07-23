@@ -1,20 +1,25 @@
+import kotlin.math.sqrt
+
 fun main(){
+    //  Question 1
+    //  A program that calculates the difference between the year you were born and the current year.
 
-//    Variables
-
-//    println("Enter year")
-//        val year = readln().toInt()
-//        when(year){
-//            in 0..1959 ->println("Gen Z")
-//            in 1945..1959->println(" Milleanial")
-//            in 1959..2000 ->println("Gen x")
-//            else-> println("Boby Boomer")
-//        }
-
-    //    println("The sum of two values is $sum")
-    val flo4:Float =.3f
-    print(flo4)
+        val yearOfBirth = 1995
+        val currentYear = 2023
+        val currentAge = (currentYear - yearOfBirth)
+        println("I am $currentAge years old.")
 
 
+
+    //    Question 2
+    //    Based on pythagoras theorem, c2 = a2 + b2. if a right-angled triangle has base 4cm,
+    //    and height of 3cm.
+    //    Find the height of the hypotenuse of the triangle
+
+        val a:Double = 3.0
+        val b:Double = 4.0
+        val equation:Double = (a*a + b*b)
+        val c = sqrt(equation).toInt()
+        println("The hypotenuse of the triangle is $c cm")
 
     }
