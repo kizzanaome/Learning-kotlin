@@ -10,7 +10,6 @@ fun main(){
         println("I am $currentAge years old.")
 
 
-
     //    Question 2
     //    Based on pythagoras theorem, c2 = a2 + b2. if a right-angled triangle has base 4cm,
     //    and height of 3cm.
@@ -18,7 +17,7 @@ fun main(){
 
         val a:Double = 3.0
         val b:Double = 4.0
-        val equation:Double = (a*a + b*b)
+        val equation = (a*a + b*b).toFloat()
         val c = sqrt(equation).toInt()
         println("The hypotenuse of the triangle is $c cm")
 
