@@ -80,6 +80,8 @@ fun main(){
  * 4. Solve the equation x3+7x2+10x = 0 **/
 
 
+
+
 /** Question 5
         5. A person is moving to his village with a car moving at 20km/h and He has many
                 alternative routes.
