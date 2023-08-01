@@ -78,7 +78,19 @@ fun main(){
 
 /** Question 4
  * 4. Solve the equation x3+7x2+10x = 0 **/
+//    x(x2+7x+10) = 0
+//    x=0 x2+7x+10=0
+    println("")
+    println("1. Solution to Question 4")
+    val x0 = 0
+    val a1 = 1
+    val b1 = 7
+    val c1 = 10
 
+    val d1 = (b1*b1.toFloat())-(4*a1*c1.toFloat())
+    val x3 = ((-b1 + sqrt(d1))/2*1).toInt()
+    val x4 = ((-b1 - sqrt(d1))/2*1).toInt()
+    println("The values of X are x= $x0 x1=$x3 and x2=$x4")
 
 
 
